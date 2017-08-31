@@ -12,6 +12,9 @@
 		08ADF71F1F57C27600B7BABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08ADF71D1F57C27500B7BABD /* Main.storyboard */; };
 		08ADF7211F57C27600B7BABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08ADF7201F57C27600B7BABD /* Assets.xcassets */; };
 		08ADF7241F57C27600B7BABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08ADF7221F57C27600B7BABD /* LaunchScreen.storyboard */; };
+		08ADF72C1F57E3CB00B7BABD /* MonsterListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ADF72B1F57E3CB00B7BABD /* MonsterListTableViewController.swift */; };
+		08ADF72E1F57E8B500B7BABD /* MonsterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ADF72D1F57E8B500B7BABD /* MonsterViewController.swift */; };
+		08ADF7301F57EA6600B7BABD /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ADF72F1F57EA6600B7BABD /* Monster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		08ADF7201F57C27600B7BABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08ADF7231F57C27600B7BABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08ADF7251F57C27600B7BABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08ADF72B1F57E3CB00B7BABD /* MonsterListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterListTableViewController.swift; sourceTree = "<group>"; };
+		08ADF72D1F57E8B500B7BABD /* MonsterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterViewController.swift; sourceTree = "<group>"; };
+		08ADF72F1F57EA6600B7BABD /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				08ADF7191F57C27500B7BABD /* AppDelegate.swift */,
 				08ADF71B1F57C27500B7BABD /* ViewController.swift */,
 				08ADF71D1F57C27500B7BABD /* Main.storyboard */,
+				08ADF72F1F57EA6600B7BABD /* Monster.swift */,
+				08ADF72D1F57E8B500B7BABD /* MonsterViewController.swift */,
+				08ADF72B1F57E3CB00B7BABD /* MonsterListTableViewController.swift */,
 				08ADF7201F57C27600B7BABD /* Assets.xcassets */,
 				08ADF7221F57C27600B7BABD /* LaunchScreen.storyboard */,
 				08ADF7251F57C27600B7BABD /* Info.plist */,
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08ADF7301F57EA6600B7BABD /* Monster.swift in Sources */,
 				08ADF71C1F57C27500B7BABD /* ViewController.swift in Sources */,
+				08ADF72E1F57E8B500B7BABD /* MonsterViewController.swift in Sources */,
+				08ADF72C1F57E3CB00B7BABD /* MonsterListTableViewController.swift in Sources */,
 				08ADF71A1F57C27500B7BABD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
